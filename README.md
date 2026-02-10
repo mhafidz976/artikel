@@ -1,4 +1,4 @@
-# Signature Authenticity Detection using AI (CNN)
+# Deteksi Keaslian Tanda Tangan Menggunakan Convolutional Neural Network Berbasis Citra Digital
 
 Aplikasi web berbasis Python untuk mendeteksi keaslian tanda tangan menggunakan metode Deep Learning **Convolutional Neural Network (CNN)**. Sistem ini dapat mengklasifikasikan citra tanda tangan menjadi dua kategori: **Genuine (Asli)** atau **Forged (Palsu)**.
 
