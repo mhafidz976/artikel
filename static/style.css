@@ -1,0 +1,50 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.text-primary {
+    color: #4a6cf7 !important;
+}
+
+.btn-primary {
+    background-color: #4a6cf7;
+    border-color: #4a6cf7;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #3858d6;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(74, 108, 247, 0.3);
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.result-box {
+    border: 1px solid #e0e0e0;
+}
+
+#previewImage {
+    max-height: 300px;
+    object-fit: contain;
+    background-color: #fff;
+}
+
+.progress {
+    background-color: #e9ecef;
+    border-radius: 10px;
+}
+
+/* Animasi sederhana */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#result-section:not(.d-none) {
+    animation: fadeIn 0.8s ease forwards;
+}
